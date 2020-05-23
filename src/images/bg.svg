@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="327" height="64" viewBox="0 0 327 64">
+  <defs>
+    <filter id="shadow" x="0" y="0" width="327" height="64" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#18191f"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_71" data-name="Group 71" transform="translate(-59 -446)">
+    <g transform="matrix(1, 0, 0, 1, 59, 446)" filter="url(#shadow)">
+      <g id="shadow-2" data-name="shadow" fill="#18191f" stroke="#18191f" stroke-miterlimit="10" stroke-width="2">
+        <rect width="327" height="60" rx="16" stroke="none"/>
+        <rect x="1" y="1" width="325" height="58" rx="15" fill="none"/>
+      </g>
+    </g>
+    <g id="bg" transform="translate(59 446)" fill="#ffbd12" stroke="#18191f" stroke-miterlimit="10" stroke-width="2">
+      <rect width="327" height="60" rx="16" stroke="none"/>
+      <rect x="1" y="1" width="325" height="58" rx="15" fill="none"/>
+    </g>
+  </g>
+</svg>
